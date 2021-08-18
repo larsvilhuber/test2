@@ -7,13 +7,13 @@ do
    echo "Going to run $extension"
    case $extension in 
       R|r)
-         echo "Rscript $program"
+         echo "***Rscript $program"
          ;;
       do|DO)
-         echo "stata-mp -b $program"
+         echo "***stata-mp -b $program"
          ;;
       sas|SAS)
-         echo "sas $program"
+         echo "***sas $program"
          ;;
    esac
 done
